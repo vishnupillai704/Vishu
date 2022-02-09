@@ -1,4 +1,4 @@
-#query /Find Documents
+#QUERY/FIND DOCUMENTS
 
 1)db.movies.find()
 2)db.movies.find({writer:"Quentin tarantino"})
@@ -7,7 +7,7 @@
 5)db.movies.find({year:{$lt:2000}})
 6)db.movies.find({year:{$gt:2010}})
 
-#Update Documents
+#UPDATE DOCUMENTS
 
 1)db.movies.update({title:"The Hobbit:An Unexpected Journey"},{$set:{synopsis:"A reluctant hobbit, 
 Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of 
@@ -21,7 +21,7 @@ mysterious and magical ring."}})
 
 3)db.movies.update({title:Pulp Fiction},{$Set:{actors:["Sameul L. Jackson","John Travolta","Uma thurman"]}})
 
-#Text Search
+#TEXT SEARCH
 
 1)db.movies.createIndex({synopsis:"text"})
   db.movies.find({$text:{$search:"bilbo"}})
