@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #query /Find Documents
 QUESTIONS
 
@@ -9,6 +10,9 @@ QUESTIONS
 6. get all movies released before the year 2000 or after 2010
 
 ANSWERS
+=======
+#QUERY/FIND DOCUMENTS
+>>>>>>> bfc9ca69e6e9626c7a5280d32b5899689471a7a1
 
 1)db.movies.find()
 2)db.movies.find({writer:"Quentin tarantino"})
@@ -17,7 +21,7 @@ ANSWERS
 5)db.movies.find({year:{$lt:2000}})
 6)db.movies.find({year:{$gt:2010}})
 
-#Update Documents
+#UPDATE DOCUMENTS
 
 QUESTIONS
 1) add a synopsis to "The Hobbit: An Unexpected Journey" : "A reluctant hobbit,
@@ -44,7 +48,7 @@ mysterious and magical ring."}})
 
 3)db.movies.update({title:Pulp Fiction},{$Set:{actors:["Sameul L. Jackson","John Travolta","Uma thurman"]}})
 
-#Text Search
+#TEXT SEARCH
 
 QUESTIONS
 
