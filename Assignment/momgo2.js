@@ -25,8 +25,8 @@ population?
 ANSWERS
 
 1)db.zipcodes.aggregate({$group:{_id:{state:"$state",total:{$sum:"$pop"}}}})
-2)db.zipcodes.aggregate({$sort:{pop:-1}})
-3)db.zipcodes.aggregate({$sort:{pop:-1}},{$limit:3})
+2)db.zipcodes.aggregate([{$group:{_id:"$state", TotPopulation:{$sum:"$pop"}}}, {$sort:{TotPopulation:-1}}])
+3)db.zipcodes.aggregate([{$group:{_id:"$state", TotPopulation:{$sum:"$pop"}}}, {$sort:{TotPopulation:-1}},{$limit:3}])
   THE TOP THREE STATES ARE-IL,NY,NY
 
 #POPULATION BY CITY
@@ -43,10 +43,10 @@ population?
 
 ANSWERS
 
-1)db.zipcodes.aggregate({$group:{_id:{city:"$city",state:"$state",total:{$sum:"$pop"}}}})
-2)db.zipcodes.aggregate({$sort:{pop:-1}})
-3)db.zipcodes.aggregate({$sort:{pop:-1}},{$limit:3})
-4)Top three cities are: CHICAGO, BROOKLYN, NEW YORK
+1)db.zipcodes.aggregate({$group:{_id:{city:"$city",state:"$state",Total:{$sum:"$pop"}}}})
+2)db.zipcodes.aggregate([{$group:{_id:"$city",Total:{$sum:"$pop"}}},{$sort:{Total:-1}}])
+3)db.zipcodes.aggregate([{$group:{_id:"$city",Total:{$sum:"$pop"}}},{$sort:{Total:-1}},{$limit:3}])
+4)Top three cities are: CHICAGO, BROOKLYN, HOUSTON
 
 #bonus
 
