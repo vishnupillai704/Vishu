@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <bean id="triangle" class="Triangleinterface">
+        <property name="pointA" ref="PointA"/>
+        <property name="pointB" ref="PointB"/>
+    </bean>
+    <bean id="PointA" class="PointInterface">
+        <qualifier value="circleRelated" />
+        <property name="X" value="80"/>
+        <property name="Y" value="70"/>
+    </bean>
+    <bean id="PointB" class="PointInterface">
+        <property name="X" value="77"/>
+        <property name="Y" value="77"/>
+    </bean>
+
+    <bean id="circle" class="CircleInterface">
+
+    </bean>
+
+    <context:annotation-config />
+</beans>
