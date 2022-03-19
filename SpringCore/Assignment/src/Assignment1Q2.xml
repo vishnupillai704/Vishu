@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"   "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+    <bean id="Question" class="com.example.demo.Assignment1Q2Question">
+        <property name="Questionid" value="1"/>
+        <property name="Question" value="how are you?"/>
+        <property name="Answers">
+            <list>
+                <value> i am fine</value>
+            </list>
+        </property>
+        <property name="Answers1">
+            <set>
+                <value> i am fine !</value>
+            </set>
+        </property>
+        <property name="Answers2" >
+            <map>
+                <entry key="1" value=" I am fine."/>
+            </map>
+        </property>
+    </bean>
+</beans>
