@@ -17,7 +17,7 @@ public class Assignment1Customerclass {
     public void Details(){
         System.out.println(" customer id: "+this.customerId+"customer name: "+this.customerName+" customerContact: "+this.customerContact+" customerAddress"+this.customerAddress+ " "+addressclass.getCountry()+" "+addressclass.getState()+" "+addressclass.getCity()+" "+addressclass.getStreet()+" "+addressclass.getZip());
     }
-
+// using setter injection
 //  public Integer getCustomerId() {
 //       return customerId;
 //    }
