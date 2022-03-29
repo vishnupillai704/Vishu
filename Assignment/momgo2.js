@@ -59,3 +59,4 @@ ANSWERS
 
 1)db.zipcodes.aggregate({$group:{_id:{state:"$state",avg:{$avg:"$pop"}}}})
 2)db.zipcodes.aggregate({$group:{_id:{state:"state",avg:{$avg:"$pop"}}}},{$sort:{$pop:-1}})
+//DONE
