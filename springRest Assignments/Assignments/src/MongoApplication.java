@@ -1,4 +1,4 @@
-package com.example.mongo;
+package com.example.mongoQ8;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
