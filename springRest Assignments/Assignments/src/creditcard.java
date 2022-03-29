@@ -18,5 +18,5 @@ public class creditcard {
             ans="Valid + MasterCard";
         return ans;
     }
-
+//taken reference from someone
 }
