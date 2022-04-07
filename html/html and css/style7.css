@@ -1,0 +1,92 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 2000px;
+
+}
+#header{
+    background-image: url(/img/HD-Music-Wallpaper-1920x1080.jpg);
+    width: 1100px;
+    height: 500px;
+    margin-left: 100px;
+    margin-right: auto;
+
+    padding: 300px;
+}
+body{
+    background-color: black;
+}
+.quote-1{
+    position: relative;
+    font-size: 50px;
+    left: 500px;
+    bottom: 200px;
+}
+#menu{
+    left: 100px;
+    top:100px;
+    position: relative;
+}
+.container a{
+    position: relative;
+    font-size: 50px;
+    top:150px;
+    left: 95px;
+    text-decoration: none;
+}
+.info{
+    font-size: 50px;
+    position: relative;
+    bottom: 700px;
+}
+.info1{
+    font-size: 50px;
+    position: relative;
+    bottom: 600px;
+}
+.link{
+    font-size: 50px;
+    position: relative;
+    bottom: 750px;
+}
+.footer{
+    position: relative;
+    height: 400px;
+    background-color: orange;
+    
+}
+#information{
+    position: relative;
+    color: green;
+    left: 1400px;
+}
+#information1{
+    position: relative;
+    color: green;
+    left: 900px;
+    bottom: 200px;
+}
+#help{
+    position: relative;
+    color: green;
+    bottom: 90px;
+
+}
+#quote2{
+    position: relative;
+    font-size: 50px;
+    bottom: 400px;
+}
+#quote3{
+    position: relative;
+    font-size: 50px;
+    bottom: 1500px;
+
+}
+#quote4{
+    position: relative;
+    font-size: 50px;
+    bottom: 2400px;
+    left:250px
+
+}

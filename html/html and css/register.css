@@ -1,0 +1,70 @@
+body{
+    background-color: aliceblue;
+}
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.container, .grid {
+    margin: 0 auto;
+    width: 960px;
+}
+.logo {
+    border-top: 4px solid #648880;
+    float: left;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 40px 0 22px 0;
+    text-transform: uppercase;
+}
+
+h1, h3, h4, h5, p {
+    margin-bottom: 22px;
+}
+h1 {
+    font-size: 36px;
+    line-height: 44px;
+}
+h1, h2, h3, h4 {
+    color: #648880;
+}
+.tagline {
+    margin: 66px 0 22px 0;
+    text-align: right;
+}
+.nav {
+    text-align: right;
+}
+.primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.nav li {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+.lead {
+    text-align: center;
+}
+
+.primary-footer {
+    color: #648880;
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+    background-color: gray;
+}
+.primary-header {
+    color: #648880;
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+    background-color: gray;
+}

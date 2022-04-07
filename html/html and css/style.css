@@ -1,0 +1,38 @@
+h1{
+    color: red;
+    background-color: chocolate;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* p{
+    color:brown;
+    text-align: left;
+    line-height: 20px;
+    letter-spacing: 3px;
+} */
+p.vishnu{
+    color: blue;
+}
+p.vishnu.vish{
+    color: orange;
+}
+a[href="www.google.com"]{
+    color: green;
+}
+a[href="www.youtubevideos.com"]{
+    color: red;
+}
+
+ul.vishnu{
+    /* border-width: 4px;
+    border-style: solid;
+    background-color: red; */
+    border: 4px solid black;
+    /* border-bottom: 4px dotted blue; */
+    
+}
+li{
+    list-style-type: square;
+}

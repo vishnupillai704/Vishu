@@ -1,0 +1,18 @@
+.one{
+
+    position: relative;
+   
+    padding: 200px;
+}
+.two{
+    position: relative;
+
+    padding: 200px;
+    
+}
+.one{
+    background-image: url(/img/java\ developer\ speaker.jpg);
+}
+.two{
+    background-image: url(/img/speaker.jpg);
+}

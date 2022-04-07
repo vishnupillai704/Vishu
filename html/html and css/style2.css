@@ -1,0 +1,23 @@
+.body{
+    background-color: lightblue;
+}
+.vibes{
+    text-align: center;
+    margin: 0px auto;
+    padding: 40px;
+    
+}
+.Title{
+    text-align: center;
+    margin: 0px auto;
+    color: green;
+    text-decoration: underline;
+}
+.form{
+    text-align: center;
+    background-color: grey;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+    
+}
