@@ -1,0 +1,10 @@
+body{
+    background-color: grey;
+    
+}
+table,th,td{
+    border: 1px solid green;
+}
+.vis{
+  background-color: green;
+}

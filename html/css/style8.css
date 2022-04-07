@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+    border: 1px solid white;
+}
+.vish{
+    background-color: darkgreen;
+    border: 4px solid white;
+}
+.vis{
+    background-color: darkgreen;
+    border: 3px solid white;
+}
+.vi{
+    background-color: darkgreen;
+    border: 1px solid white;
+}
+.v{
+    background-color: green;
+}
