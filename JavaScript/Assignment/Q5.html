@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments</title>
+    
+ 
+    
+  
+    </head>
+    <body>
+        <form> 
+        <div>
+            <label onclick="Name()" for="CustomerName">Name</label>
+            <input  type="text" name="CustomerName" id="CustomerName" required>
+            <br>
+            <label onclick="Email()" for="Email">Email</label>
+            <input type="email" name="Email" id="Email" required>
+            <br>
+            <h1 onclick="Toppings()" >Toppings</h1>
+            <label for="Toppings1">ExtraChesse </label>
+            <input type="checkbox" name="Toppings" value="cheese" id="Toppings1">
+            <label for="Toppings2">Pepperoni</label> 
+            <input type="checkbox" name="Toppings1" value="Pepperoni" id="Toppings2">
+            <label for="Toppings3">Olives</label>
+            <input type="checkbox" name="Toppings2" value="Olives" id="Toppings3">
+            <label for="Toppings4">Pepper</label>
+            <input type="checkbox" name="Toppings" value="Pepper" id="Toppings4">
+            <label for="Toppings5">Bacon</label>
+            <input type="checkbox" name="Toppings1" value="Bacon" id="Toppings5">
+            <label for="Toppings6">Tommatoes</label>
+            <input type="checkbox" name="Toppings2" value="Tommatoes" id="Toppings6">         
+            <label for="Toppings7">Mushrooms</label>
+            <input type="checkbox" name="Toppings" value="Mushrooms" id="Toppings7">
+        </div>
+        <div>
+            <h2 onclick="Delivery()">How do you want to get yor pizza?</h2>
+            <label for="pizza1">Delivery</label>
+            <input type="radio" name="pizza" id="pizza" value="Yes">
+            <label for="pizza2">Pickup</label>
+            <input type="radio" name="pizza" id="pizza2" value="No">
+        </div>
+        <br>
+        <div>
+            <label onclick="Tip()" for="Tip">Tip?</label>
+            <select name="Tip" id="Tip">
+                <option value="15">15%</option>
+                <option value="20">20%</option>
+                <option value="25">25%</option>
+            </select>
+        </div>
+        <div>
+            <h4 onclick="Address()">Address</h4>
+            <textarea name="address" id="address" cols="30" rows="10" required></textarea>
+         
+        </div>
+        <div>
+            <textarea onclick="help()" name="help" id="help" placeholder="This text area provide context-sensitive help click on any input field to get more information about the input field" cols="30" rows="10"></textarea>
+        </div>
+
+        <input onclick="Submi()" type="submit" value="submit"> 
+        </form>
+      
+
+    </body>
+    
+    <script src="/javascript basics/Q5.js"></script>
+    </html>
