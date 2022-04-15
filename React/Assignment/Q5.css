@@ -1,0 +1,44 @@
+.containe{
+    background-color: aqua;
+
+}
+ 
+.Digital{
+    width: 1240px;
+    height: 100px;
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    position: relative;
+    bottom: 22px;
+}
+.clock{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 100px;
+    left: 520px;
+    background-color: black;
+    border-radius: 200px;
+    text-align: center;
+}
+.main{
+    position: relative;
+    color: aqua;
+    top: 74px;
+}
+.dates{
+    color: aqua;
+    position: relative;
+    top: 57px;
+}
+.date{
+
+    position: relative;
+
+    color: aqua;
+}
+.head{
+    background-color: black;
+    color: aqua;
+}
