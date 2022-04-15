@@ -33,7 +33,7 @@ function App () {
   return (
      
     <div className="App">
-        {/* <Routers>
+         <Routers>
        <nav>
        <Link to="/home">Home</Link>
          <Link to="/about">About</Link>
@@ -44,19 +44,19 @@ function App () {
      <Route path="/about/:username" element={<About/>} />
       <Route path="*" element={<Error/>}/> 
      </Routes>
-     </Routers>  */}
+     </Routers>  
      
-       {/* <Hookcounter/>
+        <Hookcounter/>
        <HookcounterTwo/>
        <HookcounterThree/>
        <HookcounterFour/>
        <HookcounterFive/> */}
-       {/* <HookDatafetching/> */}
-       {/* <HookDatafetching2/> */}
+        <HookDatafetching/> 
+        <HookDatafetching2/> 
        
-       {/* <HookcounterSix/> */}
+        <HookcounterSix/>
 
-        {/* <Hoverhandler/>
+         <Hoverhandler/>
        <Cliclhandler/>
        <RefsDemo/>
        <LifecycleA/>
@@ -72,7 +72,7 @@ function App () {
       <Greet name="suraj" age="20"></Greet>
       <Greet name="rajiv" age="21"></Greet>
       <Welcome name="vishnu" age="21" hair="black"></Welcome>
-      <Welcome name="suraj" age="20"></Welcome> */}
+      <Welcome name="suraj" age="20"></Welcome> 
      
    
     </div>
