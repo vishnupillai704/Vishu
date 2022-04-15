@@ -1,0 +1,36 @@
+.Home{
+    background-color: purple;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    right:390px ;
+    text-decoration: none;
+}
+.Projects{
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    bottom: 65px;
+    right: 170px;
+    text-decoration: none;
+
+}
+.Services{
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 120px;
+    bottom: 129px;
+    text-decoration: none;
+}
+.Contact{
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 425px;
+    bottom: 194px;
+    text-decoration: none;
+}
